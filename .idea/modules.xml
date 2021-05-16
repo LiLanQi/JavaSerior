@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaSerior.iml" filepath="$PROJECT_DIR$/JavaSerior.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MAVENTEST/MAVENTEST.iml" filepath="$PROJECT_DIR$/MAVENTEST/MAVENTEST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyFirstDemo/MyFirstDemo.iml" filepath="$PROJECT_DIR$/MyFirstDemo/MyFirstDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring5_demo1/Spring5_demo1.iml" filepath="$PROJECT_DIR$/Spring5_demo1/Spring5_demo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootTest1/SpringBootTest1.iml" filepath="$PROJECT_DIR$/SpringBootTest1/SpringBootTest1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootTest2/SpringBootTest2.iml" filepath="$PROJECT_DIR$/SpringBootTest2/SpringBootTest2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootTest3/SpringBootTest3.iml" filepath="$PROJECT_DIR$/SpringBootTest3/SpringBootTest3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day01/day01.iml" filepath="$PROJECT_DIR$/day01/day01.iml" />
+    </modules>
+  </component>
+</project>

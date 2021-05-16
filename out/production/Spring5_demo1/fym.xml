@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                            http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--Spring增对Bean管理中创建对象提供注解
+    @Component
+    @Service
+    @Controller
+    @Repository-->
+    <!--开启组件扫描
+    1.如果扫描多个包，多个包使用逗号隔开
+    2.扫描包上层目录-->
+    <context:component-scan base-package="com.fym" >
+    </context:component-scan>
+
+   <!-- <context:component-scan base-package="com.fym" >
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Component"/>
+    </context:component-scan>-->
+
+    <!--基于注解实现属性注入
+    @AutoWired:根据属性类型进行自动装配
+    @Qualifier：根据属性名称进行注入
+    @Resource：可以根据类型注入，也可以根据名称注入
+    @Value:注入普通类型属性
+    -->
+</beans>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--    注入属性，利用set方法注入-->
+<!--    <bean id="user" class="com.llq.User">-->
+<!--        <property name="userName" value="llq"></property>-->
+<!--    </bean>-->
+
+<!--    注入属性，利用构造器注入-->
+<!--    <bean id="user" class="com.llq.User">-->
+<!--        <constructor-arg name="userName" value="llq"></constructor-arg>-->
+<!--        <constructor-arg name="age" value="23"></constructor-arg>-->
+<!--    </bean>-->
+
+<!--        注入属性，（null与特殊符号)-->
+<!--        <bean id="user" class="com.llq.User">-->
+<!--            <property name="userName" >-->
+<!--                <value><![CDATA[<<零零七>>]]></value>-->
+<!--            </property>-->
+<!--            <property name="age"><null></null></property>-->
+<!--        </bean>-->
+
+<!--    <bean id="userService" class="com.llq.UserService">-->
+<!--        <property name="userDao" ref="userDaoImpl"></property>外部bean的使用-->
+<!--    </bean>-->
+
+<!--    <bean id="userDaoImpl" class="com.llq.UserDaoImpl"></bean>-->
+
+    <!--内部bean操作
+    <bean id="employee" class="com.llq.Employee">
+        &lt;!&ndash;设置俩个普通属性&ndash;&gt;
+        <property name="name" value="小明"></property>
+        <property name="gender" value="女"></property>
+
+        &lt;!&ndash;设置对象类型属性&ndash;&gt;
+        <property name="department">
+            <bean id="dep" class="com.llq.Department">
+                <property name="dName" value="保安部"></property>
+            </bean>
+        </property>
+    </bean>-->
+
+
+
+    <!--<bean id="student" class="com.llq.Student">
+        &lt;!&ndash;数组属性注入&ndash;&gt;
+        <property name="course">
+            <array>
+                <value>数学</value>
+                <value>语文</value>
+            </array>
+        </property>
+
+        &lt;!&ndash;list属性注入&ndash;&gt;
+        <property name="list">
+            <list>
+                <value>张三</value>
+                <value>小三</value>
+            </list>
+        </property>
+
+        &lt;!&ndash;map属性注入&ndash;&gt;
+        <property name="maps">
+            <map>
+                <entry key="llq" value="fym"></entry>
+                <entry key="fym" value="llq"></entry>
+            </map>
+        </property>
+
+        &lt;!&ndash;set属性注入&ndash;&gt;
+        <property name="set">
+            <set>
+                <value>llq love fym</value>
+            </set>
+        </property>
+
+        &lt;!&ndash;List中注入对象属性&ndash;&gt;
+        <property name="courseList" >
+            <list>
+                <ref bean="course1"></ref>
+                <ref bean="course2"></ref>
+            </list>
+        </property>
+
+    </bean>
+
+    <bean id="course1" class="com.llq.Course">
+        <property name="cname" value="数据结构"></property>
+    </bean>
+    <bean id="course2" class="com.llq.Course">
+        <property name="cname" value="操作系统"></property>
+    </bean>-->
+
+    <!--测试工厂bean
+    <bean id="myBean" class="com.llq.MyBean">-->
+
+    <!--测试单实例and多实例,singleton为单实例，prototype为多实例
+    <bean id="course" class="com.llq.Course" scope="prototype"></bean>
+    <bean id="course" class="com.llq.Course" scope="singleton"></bean>-->
+    </bean>
+</beans>
