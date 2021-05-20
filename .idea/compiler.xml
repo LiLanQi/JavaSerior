@@ -18,7 +18,7 @@
       <module name="MyFirstMavenTest" target="8" />
       <module name="SpringBootTest" target="8" />
       <module name="SpringBootTest1" target="1.7" />
-      <module name="SpringBootTest2" target="1.7" />
+      <module name="SpringBootTest2" target="8" />
       <module name="SpringBootTest3" target="1.7" />
       <module name="SpringTest1" target="8" />
       <module name="TestMvn" target="8" />
@@ -29,6 +29,7 @@
       <module name="MAVENTEST" options="-parameters" />
       <module name="SpringBootTest1" options="-parameters" />
       <module name="SpringBootTest2" options="-parameters" />
+      <module name="SpringBootTest3" options="-parameters" />
     </option>
   </component>
 </project>
